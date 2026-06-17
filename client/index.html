@@ -30,8 +30,19 @@
       <button class="color-btn green" data-color="green"></button>
     </div>
 
+    <div id="warmup-selector" class="warmup-selector">
+      <h3>🔥 记忆热身</h3>
+      <p>选择热身序列长度，不影响最高分</p>
+      <div class="warmup-options">
+        <button class="warmup-btn" data-steps="3">3 步</button>
+        <button class="warmup-btn" data-steps="5">5 步</button>
+        <button class="warmup-btn" data-steps="7">7 步</button>
+      </div>
+      <button id="skip-warmup-btn" class="skip-warmup-btn">跳过热身，直接开始</button>
+    </div>
+
     <div class="controls">
-      <button id="start-btn" class="start-btn">开始游戏</button>
+      <button id="start-btn" class="start-btn" style="display: none;">开始游戏</button>
     </div>
 
     <div class="instructions">

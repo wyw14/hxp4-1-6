@@ -228,6 +228,82 @@ h1 {
   cursor: not-allowed;
 }
 
+.warmup-selector {
+  margin-bottom: 30px;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  border: 2px solid rgba(254, 202, 87, 0.3);
+}
+
+.warmup-selector h3 {
+  color: #feca57;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.warmup-selector p {
+  color: #aaa;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.warmup-options {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.warmup-btn {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #feca57 0%, #ff9f43 100%);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(254, 202, 87, 0.4);
+}
+
+.warmup-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(254, 202, 87, 0.6);
+}
+
+.warmup-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.skip-warmup-btn {
+  padding: 10px 25px;
+  font-size: 0.95rem;
+  color: #aaa;
+  background: transparent;
+  border: 1px solid #555;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.skip-warmup-btn:hover {
+  color: #fff;
+  border-color: #888;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.warmup-result {
+  margin-top: 15px;
+  padding: 15px;
+  background: rgba(29, 209, 161, 0.15);
+  border-radius: 10px;
+  color: #1dd1a1;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
 .instructions {
   text-align: left;
   padding: 20px;
